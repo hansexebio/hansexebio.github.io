@@ -1,0 +1,14 @@
+<div>
+    los tags aqui listando
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(event) {
+
+    $.getJSON('project/travel_of_dilan/tag', data => {
+        console.log(data); //["doc1.jpg", "doc2.jpg", "doc3.jpg"] 
+    });
+
+    });
+</script>
